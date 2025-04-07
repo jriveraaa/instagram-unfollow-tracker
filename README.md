@@ -11,7 +11,26 @@ Este programa te ayuda a descubrir quiénes no te siguen en Instagram.
 - Haber descargado tus datos de Instagram.
 
 ## Instrucciones paso a paso
-### 1) Descarga tus datos de Instagram:
+### 1) Descarga el programa:
+#### Opción 1: Copiar y crear el archivo manualmente
+Abre un editor de texto (como Bloc de notas o TextEdit)
+Copia el código del archivo main.py del repositorio
+Pega el código en el editor
+Guarda el archivo con el nombre main.py
+
+#### Opción 2: Descargar desde el botón "Code"
+Ve al repositorio en GitHub
+Haz clic en el botón verde "Code"
+Selecciona "Download ZIP"
+Descomprime el archivo ZIP descargado
+
+#### Opción 3: Descargar desde Releases
+Ve a la sección "Releases" del repositorio en GitHub
+Encuentra la última versión
+Haz clic en "Source code (zip)"
+Descomprime el archivo ZIP descargado
+
+### 2) Descarga tus datos de Instagram:
 1. Abre Instagram en tu teléfono o computadora
 2. Ve a tu perfil
 3. Toca las tres líneas (menú) y selecciona "Configuración y privacidad"
@@ -25,18 +44,18 @@ Este programa te ayuda a descubrir quiénes no te siguen en Instagram.
 11. Tendrás que esperar un tiempo, y más tarde recibirás un correo electrónico indicando que tu información está lista.
 12. Cuando esté listo, descarga tus archivos a tu computadora.
 
-### 2) Prepara los archivos necesarios:
+### 3) Prepara los archivos necesarios:
 1. Dentro de los archivos extraídos de Instagram, busca:
    - El archivo `followers_1.json` (tus seguidores)
    - El archivo `following.json` (personas que sigues)
 2. Copia estos dos archivos y colócalos en la misma carpeta donde guardaste el programa `main.py`
 
-### 3) Instala Python (si no lo tienes ya):
+### 4) Instala Python (si no lo tienes ya):
 1. Ve a [python.org](https://www.python.org/downloads/)
 2. Descarga e instala la última versión para tu sistema operativo
 3. Durante la instalación, marca la casilla "Añadir Python al PATH"
 
-### 4) Ejecuta el programa:
+### 5) Ejecuta el programa:
 #### En Windows:
 1. Abre la carpeta donde guardaste el programa `main.py` y los archivos de Instagram
 2. Mantén presionada la tecla Shift y haz clic derecho en un espacio vacío de la carpeta
